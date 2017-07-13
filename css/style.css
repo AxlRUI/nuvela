@@ -1,0 +1,200 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+* {
+  font-family: "Open Sans", sans-serif; }
+
+h1 {
+  font-size: 2.4em;
+  font-weight: lighter; }
+
+h2 {
+  font-size: 2em;
+  font-weight: lighter; }
+
+h3 {
+  font-size: 1.8em;
+  font-weight: lighter; }
+
+h4 {
+  font-size: 1.4em;
+  font-weight: lighter; }
+
+h5 {
+  font-size: 1em;
+  font-weight: lighter; }
+
+h6 {
+  font-size: 0.8em;
+  font-weight: lighter; }
+
+.img_background1 {
+  display: block;
+  background-image: url("http://www.nuvela.mx/other/fondo1.png");
+  position: fixed;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  z-index: -1;
+  width: 100%;
+  height: 100%; }
+
+.img_background2 {
+  display: block;
+  background-image: url("http://www.nuvela.mx/other/fondo2.png");
+  position: fixed;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  z-index: -1;
+  width: 100%;
+  height: 100%; }
+
+.content1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: -webkit-flex;
+  -webkit-justify-content: center;
+  -webkit-align-items: center;
+  position: relative; }
+
+.blue_rectangle1 {
+  display: flex;
+  display: -webkit-flex;
+  background: #06a5f4;
+  color: #ffffff;
+  width: 824px;
+  height: 364px;
+  transform: translateY(50%);
+  -webkit-transform: translateY(50%);
+  flex-direction: row;
+  -webkit-flex-direction: row;
+  justify-content: space-between;
+  -webkit-justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  -webkit-align-items: center;
+  line-height: 40px;
+  z-index: 1; }
+  .blue_rectangle1 div {
+    margin: 10px; }
+    .blue_rectangle1 div img {
+      width: 180px; }
+
+.white_rectangle1 {
+  display: flex;
+  display: -webkit-flex;
+  background: #ffffff;
+  width: 380px;
+  height: 484px;
+  transform: translateY(37%);
+  -webkit-transform: translateY(37%);
+  flex-direction: row;
+  -webkit-flex-direction: row;
+  justify-content: center;
+  -webkit-justify-content: center;
+  text-align: center;
+  align-items: center;
+  -webkit-align-items: center;
+  line-height: 40px;
+  z-index: 2;
+  position: absolute;
+  margin: 0 auto;
+  left: 25%;
+  flex-direction: column; }
+  .white_rectangle1 form {
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    justify-content: center;
+    -webkit-justify-content: center;
+    align-items: center;
+    -webkit-align-items: center; }
+    .white_rectangle1 form input {
+      margin: 10px; }
+    .white_rectangle1 form input[type="text"], .white_rectangle1 form input[type="password"], .white_rectangle1 form input[type="email"], .white_rectangle1 form input[type="tel"] {
+      padding: 10px;
+      width: 100%; }
+    .white_rectangle1 form input[type="submit"] {
+      padding: 10px;
+      padding-bottom: 5px;
+      padding-top: 5px;
+      width: 80%;
+      box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.6);
+      cursor: pointer;
+      background: #808080;
+      border: none;
+      color: #ffffff;
+      font-size: 1.8em;
+      -webkit-transition: 400ms ease;
+      transition: 400ms ease; }
+    .white_rectangle1 form input[type="submit"]:hover {
+      background: #06a5f4;
+      box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.6); }
+  .white_rectangle1 div {
+    margin: 10px; }
+    .white_rectangle1 div img {
+      width: 180px; }
+
+.button {
+  background: none;
+  border: solid 1px #ffffff;
+  color: #ffffff;
+  font-size: 1.8em;
+  padding: 8px;
+  padding-left: 14px;
+  padding-right: 14px;
+  cursor: pointer;
+  transition: 400ms ease;
+  -webkit-transition: 400ms ease; }
+
+.button:hover {
+  background: #ffffff;
+  color: #06a5f4; }
+
+.singin_container1 {
+  background: #ffffff;
+  font-size: 20px;
+  width: 200px;
+  height: 200px; }
+
+/*# sourceMappingURL=style.css.map */
