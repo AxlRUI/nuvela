@@ -5,6 +5,6 @@
 	<title>Document</title>
 </head>
 <body>
-	git funciona
+	git funciona y funciona muy bien
 </body>
 </html>
